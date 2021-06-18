@@ -4,7 +4,7 @@
 	<title>inicio</title>
 <link rel="stylesheet" href="style.css">
 <script>
-function iniciarJogo() {
+function Start() {
 		var nivel = document.getElementById('nivel').value
 
 		if(nivel === '') {
@@ -37,7 +37,7 @@ function iniciarJogo() {
 			<select class="form-control" id="nivel">
 				<option value=''>--Selecione um nivel--</option>
 				<option value="normal">Normal</option>
-				<option value="dificil">Dificil</option>
+				<option value="dificil">Hard</option>
 				<option value="chuck">Chuck Norris</option>	
 			</select>
 			</div>
@@ -49,7 +49,7 @@ function iniciarJogo() {
 		<div class="col">
 			
 			<div class="d-flex justify-content-center">
-			<button type="button" class="btn btn-danger btn-lg" onclick="iniciarJogo() ='app.html' ">Iniciar Jogo</button>
+			<button type="button" class="btn btn-danger btn-lg" onclick="Start() ='app.html' ">start</button>
 			</div>
 		</div>
 	</div>
